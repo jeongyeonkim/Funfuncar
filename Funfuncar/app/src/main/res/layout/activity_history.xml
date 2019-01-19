@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    //android:background="@android:color/transparent" 투명 버튼
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_Newuser"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+       />// android:text="새로운 탑승자"
+        />
+
+    <Button
+        android:id="@+id/btn_Unregistered"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+        //android:text="등록안된 운전자"
+         />
+
+    <Button
+        android:id="@+id/btn_Accident"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+        //android:text="사고발생"
+        />
+
+    <Button
+        android:id="@+id/btn_Remain"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+        //android:text="잔류인원"
+        />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_weight="1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="40dp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/logo" />
+
+
+
+</RelativeLayout>
